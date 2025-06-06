@@ -1,0 +1,169 @@
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 45px 42px;
+}
+
+a {
+    margin-right: 36px;
+    cursor: pointer;
+}
+
+.link-header {
+    color: #17233D;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 550;
+    letter-spacing: 0.875px;
+}
+
+.button-header {
+    width: 124px;
+    height: 51px;
+    border-radius: 6px;
+    border: 1px solid #4CB538;
+    background: #6FBF44;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.5;
+}
+
+img {
+    width: 550px;
+    height: 450px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 95px;
+}
+
+h1 {
+    width: 580px;
+    height: 165px;
+    color: #161A49;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+    /* 132.258% */
+    letter-spacing: 0.596px
+}
+
+p {
+    width: 490px;
+    height: 100px;
+    color: #4B505A;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    margin-top: 47px;
+    margin-bottom: 55px;
+}
+
+.button-section {
+    color: #6FBF44;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border: none;
+    background: transparent;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+a:active {
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 695px) {
+    .link-header {
+        display: none;
+    }
+
+    .button-header {
+        margin-left: 66%;
+    }
+
+    main {
+        flex-direction: column; /* Mantém a imagem em cima e texto em baixo */
+        align-items: center; /* Centraliza horizontalmente */
+    }
+
+    section {
+        width: 100%;
+        height: 40%;
+        padding: 0;
+        margin: 0;
+        display: inline-block;
+        rotate: 180deg;
+    }
+
+    h1 {
+        width: 278px;
+        height: 60px;
+        color: #161A49;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0.596px;
+        margin: 0 auto;
+    }
+
+    p {
+        width: 300px;
+        height: 165px;
+        margin: 30px auto;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+        color: #4B505A;
+    }
+
+    .button-section {
+        width: 100%;
+        font-size: 18px;
+        font-weight: 500;
+        margin: 0px auto 59px;
+    }
+
+    img {
+        align-items: center;
+        position: static;
+        max-width: 96%;
+        height: 85%;
+        display: block;
+        rotate: 180deg;
+
+    }
+
+    main {
+        rotate: 180deg;
+    }
+
+    div{
+        align-items: center;
+    }
+    
+}

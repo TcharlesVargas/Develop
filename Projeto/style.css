@@ -1,0 +1,76 @@
+* {
+    font-family: "Poppins", sans-serif;
+    box-sizing: content-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    margin: 47px 0 177px 42px;
+}
+
+.logo-image {
+    width: 534px;
+    height: 467px;
+    margin-left: 121px;
+    display: inline-block;
+}
+
+.head-link {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.875px;
+    color: #17233D;
+    line-height: normal;
+    cursor: pointer;
+    margin-right: 36px;
+}
+
+.button-header {
+    border-radius: 6px;
+    background: #6FBF44;
+    border: 1px;
+    width: 124px;
+    height: 51px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+h1 {
+    color: #161A49;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: 0.6px;
+    margin-bottom: 47px;
+    width: 582px;
+}
+
+p {
+    color: #4B505A;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    width: 493px;
+    margin-bottom: 55px;
+}
+
+section {
+    display: inline-block;
+    margin-left: 97px;
+}
+
+.link-main {
+    color: #6FBF44;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+/* pode também usar background: transparent e border: none*/
